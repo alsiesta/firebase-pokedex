@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ng-pokedex-53866": {
+      "hosting": {
+        "ngbytes-firepokedex": [
+          "ng-pokedex-53866"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ng-pokedex-53866"
+  }
+}
