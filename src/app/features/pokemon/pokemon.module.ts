@@ -13,13 +13,14 @@ import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ListComponent } from './components/list/list.component';
 import { DetailComponent } from './components/detail/detail.component';
+import { TemplateCommentDirective } from './template-comment.directive';
 
 @NgModule({
   declarations: [
     PokemonComponent,
     FormComponent,
     ListComponent,
-    DetailComponent
+    DetailComponent,TemplateCommentDirective
   ],
   imports: [CommonModule,PokemonRoutingModule,ReactiveFormsModule,MatFormFieldModule,MatInputModule,MatButtonModule,MatCardModule,MatDialogModule]
 })
