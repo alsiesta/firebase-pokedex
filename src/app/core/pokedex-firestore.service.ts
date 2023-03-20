@@ -2,17 +2,7 @@ import { Injectable } from '@angular/core';
 import { CollectionReference, DocumentData, addDoc, collection,deleteDoc,doc,updateDoc, } from '@firebase/firestore';
 import { Firestore, collectionData, docData  } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
-
-
-interface Pokemon {
-  height: number;
-  id: string;
-  description: string;
-  imgUrl: string;
-  name: string;
-  type: string;
-  weight: number;
-}
+import { Pokemon } from '../features/pokemon/interfaces/pokemon.interface';
 
 @Injectable({
   providedIn: 'root',
