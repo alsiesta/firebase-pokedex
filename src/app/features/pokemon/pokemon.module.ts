@@ -12,12 +12,14 @@ import { MatInputModule } from '@angular/material/input';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { ListComponent } from './components/list/list.component';
+import { DetailComponent } from './components/detail/detail.component';
 
 @NgModule({
   declarations: [
     PokemonComponent,
     FormComponent,
-    ListComponent
+    ListComponent,
+    DetailComponent
   ],
   imports: [CommonModule,PokemonRoutingModule,ReactiveFormsModule,MatFormFieldModule,MatInputModule,MatButtonModule,MatCardModule,MatDialogModule]
 })
